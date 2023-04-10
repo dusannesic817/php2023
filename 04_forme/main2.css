@@ -1,0 +1,28 @@
+.holder label{
+    display:inline-block;
+    width: 100px;
+    margin: 5px 0px;
+    text-align: left;
+    
+
+}
+
+#user{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#name label{
+   
+    margin-left: 60px;
+}
+#pass label{
+   
+    margin-left: 60px;
+}
+#pass input{
+   
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+

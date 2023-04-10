@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+    <form action="test.php" method="get">
+        <input type="hidden" name="id" value="5"> 
+        <fieldset class="first_fs">
+            <legend>Osnovni podaciii</legend>
+
+        <div class="holder">
+            <div id="user">
+                <label for="username">Username: </label>
+                <input type="text" value="dusannn" placeholder="username" name="username" id="username"
+                 readonly="readonly"/>
+            </div>
+            <div id="name">
+                <label for="name">Name: </label>
+                <input type="text" value="dusannn" placeholder="name" name="name" id="name"
+                 readonly="readonly"/>
+            </div >
+        
+            <div id="pass">
+                 <label for="pass">Passoword</label>
+                 <input type="password" name="pass" id ="pass">
+            </div>
+           
+            
+
+
+
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dodatni podaci</legend>
+            <p>
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age" min="0" max="100" step="1">
+
+            </p>
+            <p>
+                <label for="em">Email: </label>
+                <input type="email" name="em" id="em">
+            </p>
+
+            <p>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gander" id="male" value="male"> Male
+                <input type="radio" name="gander" id="female" value="female"> Female   
+                <input type="radio" name="gander" id="other" value="other"> Other      
+                
+
+            </p>
+            <p>
+                <label for="sub">Subscribe to email newstletter?: </label>
+                <input type="radio" name="sub" id="male" value="yes" checked="checked"> Yes
+                <input type="radio" name="sub" id="no" value="female"> No
+                      
+            </p>
+            <p>
+                <label for="course">Course: </label>
+                <input type="checkbox" name="html" id="html" value="true" >HTML
+                <input type="checkbox" name="css" id="css" value="true" >CSS
+                <input type="checkbox" name="php" id="php" value="true" >PHP
+
+            </p>
+            <p>
+                <label for="city">City: </label>
+                <select name="city" id="city">
+                
+                    <option value="">Izaberi opciju</option>
+                        <optgroup label="Grad">
+                            <option value="bg">Beograd</option>
+                            <option value="ns">Novi sad</option>
+                            <option value="ni">Nis</option>
+                        </optgroup>
+                        <optgroup label="Opstina">
+                            <option>Vozdovac</option>
+                            <option>Novi Beograd</option>
+
+
+
+                        </optgroup>
+                    
+
+                </select>
+
+
+
+            </p>
+
+
+
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(12, 94, 66)
+}
+fieldset{
+    border-radius: 20px;
+    background-color: rgb(207, 233, 233);
+
+}
+#submit input{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(69, 121, 104);
+
+}
+
+input{
+    border-radius: 3px;
+
+}
+select{
+    border-radius: 3px;
+    background-color: rgb(69, 121, 104); ;
+
+
+}

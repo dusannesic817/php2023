@@ -1,0 +1,54 @@
+p{
+    font-family: Arial, Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    background: blue url("img.jpg");
+    text-align: center;
+    color: #39f80a;
+}
+.klasa {
+
+    color:red;
+
+}
+#p1 {
+
+color:yellow;
+}
+div+p {
+font-size: 35px;
+
+}
+div~p {
+font-size: 35px;
+
+}
+a:visited {
+color:red;
+}
+a:link {
+color:rgb(224, 224, 180);  /*boja neposecenog linka*/
+}
+a:hover {
+color:rgb(66, 37, 85);
+}
+a:active {
+font-size: 30px;
+}
+a::before{
+content: "Ovo je link: ";
+font-size: 20px;
+}
+/*
+p:first-child {
+border: 5px dotted silver;
+}*/
+/*
+p:first-of-type{
+border: 5px dotted silver;
+}*/
+p:nth-last-of-type(2) {
+border: 5px dotted silver;
+}
+li:nth-last-of-type(2) {
+color:red;
+}
