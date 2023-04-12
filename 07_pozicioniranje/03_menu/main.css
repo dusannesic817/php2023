@@ -1,0 +1,95 @@
+/*Horizontalni menu*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:1;
+}
+
+.topbar ul{
+    overflow: hidden;
+    list-style-type: none;
+
+
+}
+
+.topbar ul li{
+    float:left;
+    width: 25%;
+    /*border:1px solid black;*/
+    text-align: center;
+    background-color: rgb(71, 68, 68);
+
+}
+.topbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    font-size: 18px;
+
+}
+
+.topbar ul li a:hover{
+    background-color: rgb(85, 10, 10);
+
+}
+/*HORIZONTALNI MENU*/
+.red{
+    position: relative; /*ovo da isprobam zasto ide postion relative*/
+    top: 50px;
+    overflow: hidden;
+}
+
+.red aside{
+    float: left;
+    width: 30%;
+    background-color: blueviolet;
+}
+.red aside ul{
+    list-style-type: none;
+
+}
+.red aside ul li{
+    text-align: center;
+    background-color: rgb(202, 179, 179);
+
+}
+.red aside ul li a{
+    color: beige;
+    background-color: chocolate;
+    padding: 10px 0;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.red aside ul li a:hover{
+    background-color: darkorange;
+}
+
+.red section{
+    float:left;
+    width: 70%;
+    background-color: brown;
+    padding: 20px;
+}
+
+/*Padajuci meni*/
+
+.dropdown{
+    display: none;
+}
+
+.topbar li:nth-child(4):hover .dropdown{ /*izaberemo koji je padajuci meni u hover stanju i onda stavimo klasu koja pada*/
+    display: block;
+}
+
+
+

@@ -1,0 +1,55 @@
+header{
+    background: url(img/pizza.png);
+    height: 200px;
+    width: 1000px;
+    position: fixed;
+    
+}
+div{
+    font-size: 30px;
+    color: red;
+}
+
+/*
+#head div{
+    position: absolute;
+    top:0;
+    right: 0;
+}*/
+/*
+#head div{
+    position: absolute;
+    top:0;
+    left: 0;
+}*/
+/*
+#head div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}*/
+/*
+#head div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}*/
+/*
+#head div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}*/
+
+#head div{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30%;
+    top:30%;
+
+}

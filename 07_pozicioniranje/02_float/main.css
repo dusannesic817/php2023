@@ -1,0 +1,25 @@
+/*
+1. HTML -> parent-children struktrura
+2. children -> float   (ide kod children elementa )
+3. parent-> overflow: hidden; (ide kod perenta uvek)
+*/
+
+div{
+    background-color: brown;
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+}
+
+p{
+    margin-top: 0px;
+    background-color: aquamarine;
+    margin-right:3px ;
+    float: left;
+    width: 220px; 
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
